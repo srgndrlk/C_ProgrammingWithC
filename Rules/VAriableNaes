@@ -1,0 +1,26 @@
+Variables naming
+
+[ included
+
+_
+sembollerden sadece alt tire kullanılabilir___
+
+Harf veya _ çizgi ile başlayabilir
+
+Büyük harfle başlayabilir
+]
+
+( excluded 
+
+rakamla başlayamaz
+
+boşluk karakteri içeremez
+
+keywords kullanılamaz.
+
+türkçe karakter kullanılamaz
+
+-? semboller kullanılamaz
+
+
+)
