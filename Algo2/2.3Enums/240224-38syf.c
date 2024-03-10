@@ -2,36 +2,19 @@
 
 enum BOOLEAN{ FALSE, TRUE };  /* 0, 1 */ 
 
-int tek(int n)
+int tek(int n){     return (n % 2);} 
 
-{ 
-
-    return (n % 2);
-
-} 
-
-int main()
-
-{    
+int main(){    
 
     enum BOOLEAN sonuc;
-
     int x;
 
     printf("Bir sayi girin: ");
-
     scanf("%d",&x);
 
     sonuc = tek(x);   /* tek mi? */ 
 
-    if( sonuc == TRUE )
+    if( sonuc == TRUE )         puts("Girilen sayi tek ");
+    else         puts("Girilen sayi cift");
 
-         puts("Girilen sayi tek ");
-
-    else
-
-         puts("Girilen sayi cift");
-
-    return 0;
-
-}
+    return 0;}

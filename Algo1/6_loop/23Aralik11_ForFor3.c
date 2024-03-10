@@ -15,6 +15,3 @@ for (i = 4; 1<=i; i--)
 
 
 return 0;}
-
-// annoyşng code keeep looping to infitine
-// i thought hocanın kodu yanlış ama meğerse j yerine i yazmışım j kısmında

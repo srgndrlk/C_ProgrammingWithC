@@ -1,28 +1,20 @@
 #include <stdio.h>
+#include <string.h>
 
-struct daire{ 
-char ad[20];
+struct yap2 {char cArray[30];};
 
-struct birim{ 
-char ad[20];
+struct yap1 {
+char cArray1[15];
+char cArray2[15];
+int id;
+struct yap2 yd2;
+} yd1;
 
-struct personel{ 
-char  soyad[20];
-char  ad[20];
-int   sicilno;
-int   derece;
-} 
-baskan,sef,memur[10];
-
-} altbirim[15];
-
-} m;
-
- int main(void)
-
- {m.altbirim[7].sef.sicilno = 2547;
-
-printf("%d\n",m.altbirim[7].sef.sicilno);
-
-return 0;
-}
+int main(void){
+strcpy (yd1.cArray1, "Algorithm and ");
+strcpy (yd1.cArray2, "Programming II");
+yd1.id = 35;
+strcpy (yd1.yd2.cArray, "Manisa Celal Bayar Universitesi");
+printf("%s %s %d\n", yd1.cArray1, yd1.cArray2, yd1.id);
+printf("%s", yd1.yd2.cArray);
+return 0;}

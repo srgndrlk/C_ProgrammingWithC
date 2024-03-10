@@ -1,18 +1,20 @@
 #include <stdio.h>
-
 #include <stdlib.h>
 
-enum eBloumler {
-
-programcilik=1,donanim,
-muhasebe,motor,buro};
-
-
+enum eAreas {programming=1,
+hardware,
+accounting,
+motor,
+office
+};
 
 int main(){
-enum eBloumler bolum_degiskeni;
-bolum_degiskeni=donanim;
-printf("Bolum:%d\n",bolum_degiskeni);
-bolum_degiskeni+=2;
-printf("Yeni Bolum:%d\n",bolum_degiskeni);
+
+enum eAreas area_variable;
+area_variable=hardware;
+printf("Area:%d\n",area_variable);
+
+area_variable+=2;
+printf("New Area :%d\n",area_variable);
+
 return 0;}
