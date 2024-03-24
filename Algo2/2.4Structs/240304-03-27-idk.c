@@ -23,6 +23,6 @@ return 0;}
 void func(struct yap yd){
 yd.id += 5;
 yd.cd += 5;
-printf("%d %c\n", yd.id, yd.cd);
+printf("func: %d %c\n", yd.id, yd.cd);
 }
 
